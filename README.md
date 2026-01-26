@@ -88,3 +88,41 @@ To create a simple, affordable, and user-friendly online library system that imp
 ### Constraints
 - Must be completed within 3 months  
 - Use only free and open-source technologies
+---
+
+## 8. Quick Start – Local Development
+
+Follow these steps to run the project locally using Docker.
+
+### Prerequisites
+- Git  
+- Docker Desktop  
+- Web browser (Chrome, Edge, Firefox)  
+
+### Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/arshkalra17/online-library-management-system.git
+   cd online-library-management-system
+
+2.docker build -t library-system .
+docker run -d -p 8080:80 --name library-container library-system
+http://localhost:8080
+
+Online Library Management System  
+Docker setup is working successfully.
+
+
+---
+
+# ❌ WHAT NOT TO DO (WHAT YOU DID EARLIER)
+
+❌ Do NOT put it immediately after clone like this:
+
+```bash
+git clone ...
+cd ...
+docker build ...
+docker run ...
+
