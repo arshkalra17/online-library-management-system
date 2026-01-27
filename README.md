@@ -116,13 +116,5 @@ Docker setup is working successfully.
 
 ---
 
-# ❌ WHAT NOT TO DO (WHAT YOU DID EARLIER)
 
-❌ Do NOT put it immediately after clone like this:
-
-```bash
-git clone ...
-cd ...
-docker build ...
-docker run ...
 
