@@ -113,6 +113,59 @@ http://localhost:8080
 Online Library Management System  
 Docker setup is working successfully.
 
+---
+
+## 9. Software Design
+
+### Architecture Overview
+
+The Online Library Management System follows a layered client-server architecture to ensure modularity, high cohesion, and low coupling.
+
+The system is divided into three main layers:
+
+- **Presentation Layer** – Frontend user interface for students and librarians  
+- **Application Layer** – Backend logic handling authentication, book management, and issue/return operations  
+- **Data Layer** – Database storing users, books, and transaction records  
+
+This separation improves maintainability, scalability, and ease of future enhancements.
+
+---
+
+### High-Level Architecture Diagram
+
+![High Level Architecture](docs/design/HighLevelArch.drawio.png)
+
+---
+
+### User Interface Screens
+
+#### Login Page
+![Login](docs/design/login.png)
+
+#### Librarian Dashboard
+![Librarian Dashboard](docs/design/librarian.png)
+
+#### Student Dashboard
+![Student Dashboard](docs/design/student.png)
+
+#### Book Management
+![Book Management](docs/design/books.png)
+
+#### Issue / Return Books
+![Issue Return](docs/design/return.png)
+
+#### Search Books
+![Search Books](docs/design/search.png)
+
+---
+
+### Key Design Decisions
+
+- Used layered architecture to separate presentation, business logic, and data access  
+- Implemented role-based access control for librarians and students  
+- Designed modular components to improve maintainability  
+- Applied principles of high cohesion and low coupling  
+- Ensured clean and consistent UI for better usability  
 
 ---
 
